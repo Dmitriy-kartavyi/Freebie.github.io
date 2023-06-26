@@ -1,0 +1,73 @@
+@import "mixin.scss";
+.heder__title{
+   color: #FFF;
+   font-size: 72px;
+   font-family: Oswald;
+   font-weight: 500;
+   letter-spacing: 4.608px;
+}
+.heder__sub-title{
+   color: #FFF;
+   font-size: 20px;
+   font-family: OpenSans;
+   letter-spacing: 1.28px;
+}
+.title-1{
+   color: #333;
+   font-size: 36px;
+   font-family: Oswald;
+   font-weight: 700;
+   letter-spacing: 2.304px;
+}
+.title{
+   color: #333;
+   font-size: 36px;
+   font-family: Oswald;
+   font-weight: 700;
+   letter-spacing: 2.304px;
+}
+.title::before{
+            content: " ";
+            border-top: 2px solid #353535;
+            display: block;
+            position: relative;
+            top: 45px;
+            right: 0px;
+            width: 45px;
+         }
+
+.line::before{
+            content: " ";
+            border-top: 2px solid #353535;
+            display: block;
+            position: relative;
+            top: 35px;
+            right: 0px;
+            width: 35px;
+         }
+
+.servises__title-block{
+   color: #252525;
+   font-size: 20px;
+   font-family: Oswald;
+   font-weight: 300;
+   letter-spacing: 1.28px;
+   text-transform: uppercase;
+}
+
+.servises__sub{
+   color: #777;
+   font-size: 12px;
+   font-family: OpenSans;
+   line-height: 25px;
+   letter-spacing: 1.008px;
+}
+
+.work-title{
+   color: #252525;
+   @include adaptiv-font (48, 36);
+   font-family: Oswald;
+   font-weight: 300;
+   letter-spacing: 3.072px;
+}
+

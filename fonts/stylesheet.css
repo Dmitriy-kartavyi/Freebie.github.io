@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Oswald';
+    src: url('Oswald-Bold.woff2') format('woff2'),
+        url('Oswald-Bold.woff') format('woff'),
+        url('Oswald-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('Oswald-Light.woff2') format('woff2'),
+        url('Oswald-Light.woff') format('woff'),
+        url('Oswald-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('Oswald-Medium.woff2') format('woff2'),
+        url('Oswald-Medium.woff') format('woff'),
+        url('Oswald-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-Light.woff2') format('woff2'),
+        url('OpenSans-Light.woff') format('woff'),
+        url('OpenSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('Oswald-Medium_1.woff2') format('woff2'),
+        url('Oswald-Medium_1.woff') format('woff'),
+        url('Oswald-Medium_1.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('Oswald-Light_1.woff2') format('woff2'),
+        url('Oswald-Light_1.woff') format('woff'),
+        url('Oswald-Light_1.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('Oswald-Bold_1.woff2') format('woff2'),
+        url('Oswald-Bold_1.woff') format('woff'),
+        url('Oswald-Bold_1.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-Light_1.woff2') format('woff2'),
+        url('OpenSans-Light_1.woff') format('woff'),
+        url('OpenSans-Light_1.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
