@@ -1,2 +1,15 @@
+.slider__item{
+   min-height: 100vh;
+   div{
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100vh;
+      
+   }
+}
 
+.main-screen__bg{
+   position: relative;
+}
 

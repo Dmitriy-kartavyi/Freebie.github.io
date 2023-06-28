@@ -1,5 +1,5 @@
 
-$maxWidth: 1800; // Макс ширина контента 
+$maxWidth: 1212; // Макс ширина контента 
 
 @mixin adaptiv-font($pcSize, $mobSize) {
    $addSize: $pcSize - $mobSize;
@@ -12,7 +12,7 @@ $maxWidth: 1800; // Макс ширина контента
    }
 }
 
-
+// _anim-items(добавляет анимацию) _anim-no-hide(анимация не повторяется)
 @mixin scroll-appearance($X, $Y) {
 	transition: all 0.8s ease-in-out 0s;
 	transform: translate($X, $Y);

@@ -1,2 +1,83 @@
 @import "mixin.scss"; 
 
+.header__title {
+   h2 {
+      @include scroll-appearance (0, -50%);
+   }
+   p{
+      @include scroll-appearance (0, 30%);
+   }
+}
+
+.we-are__contant {
+   .we-are__title {
+      .text__block-1 {
+         @include scroll-appearance (50%, 0);
+      }
+      .text__block-2 {
+         @include scroll-appearance (-50%, 0);
+      }
+   }
+   .we-are__img{
+      img{
+         @include scroll-appearance (0, -100%);
+      }
+      .div-block {
+         @include scroll-appearance (0, 100%);
+
+      }
+      
+   }
+}
+
+.title {
+   @include scroll-appearance (-50%, 0);
+   transition: all 0.4s ease-in-out 0s;
+   }
+
+.servises {
+   .servises__item{
+      transform: scale(0);
+      transition: all 0.8s ease-in-out 0s;
+      
+   }
+   .servises__item._active {
+      transform: scale(1);
+   }
+}
+
+.works__columns{
+   .column-1{
+
+      .block__li{
+         @include scroll-appearance (0, 100%);
+      }
+      .block-2, .block-4 {
+         @include scroll-appearance (-100%, 0)
+      }
+   }
+   .column-2 {
+
+      .block-1, .block-3 {
+         @include scroll-appearance (100%, 0)
+      }
+
+      .link {
+         transform: scale(0);
+         transition: all 0.4s ease-in-out 0s;
+      }
+      .link._active {
+         transform: scale(1);
+      }
+   }
+}
+
+.team {
+   .block__item {
+      transform: scale(0);
+      transition: all 0.8s ease-in-out 0s;
+   }
+   .block__item._active {
+      transform: scale(1);
+   }
+}

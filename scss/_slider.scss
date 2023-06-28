@@ -1,16 +1,11 @@
-/* Слайдер */
-.slick-slider{}
-/* Слайдер запущен */
-.slick-slider.slick-initialized{}
-/* Слайдер с точками */
-.slick-slider.slick-dotted{}
-/* Ограничивающая оболочка */
+
 .slick-list {
    overflow: hidden
 }
 /* Лента слайдов */
 .slick-track{
    @include flexbox;
+   align-items: flex-start;
 }
 
 .block__arrows{
@@ -36,6 +31,3 @@
 .slick-arrow.slick-next{
    background: url('../img/arrows/right.png') 0 0 / 100% no-repeat;
 }
-/* Стрелка не активная */
-.slick-arrow.slick-disabled{}
-/* Точки (булиты) */

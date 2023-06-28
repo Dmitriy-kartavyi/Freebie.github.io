@@ -8,6 +8,7 @@ $(document).ready(function(){
       autoplaySpeed: 4000,
       dots: true,
       appendDots: '.header__dots',
+      
       }
       
    )
@@ -23,6 +24,7 @@ $(document).ready(function(){
       autoplaySpeed: 4000,
       dots: false,
       appendArrows: '.block__arrows',
+      adaptiveHeight: true,
       }
       
    )

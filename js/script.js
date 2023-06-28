@@ -37,15 +37,20 @@ if (menuLinks.length > 0) {
 	}
 }
 
-function ibg(){
-	let ibg=document.querySelectorAll(".ibg");
-	for (var i = 0; i < ibg.length; i++) {
-		if(ibg[i].querySelector('img')){
-			ibg[i].style.backgroundImage = 'url('+ibg[i].querySelector('img').getAttribute('src')+')';
-		}
-	}
+let dots = document.querySelectorAll('.work__menu');
+let active = document.querySelector('.work__menu.active') || dots[0];
+
+for (let i = 0; i < dots.length; i++) {
+    dots[i].addEventListener('click', toggleActive);
 }
-ibg();
+
+function toggleActive() {
+    active.classList.remove('active');
+    this.classList.add('active');
+
+    active = this;
+}
+
 
 
 
